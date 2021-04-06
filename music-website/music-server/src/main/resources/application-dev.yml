@@ -1,0 +1,13 @@
+spring:
+      datasource:
+          username: wangqi
+          password: P@s5W0rdpwd
+          driver-class-name: com.mysql.cj.jdbc.Driver
+          url:  jdbc:mysql://rm-uf6y2cduim8i5e33ajo.mysql.rds.aliyuncs.com:3306/test_wqy?serverTimezone=Asia/Shanghai
+
+
+param:
+  fileDir: E:\\
+  filePath: 我的闲余工作编程\\music\\music-website\\music-server\\data\\
+  mapperUrl: file:E:\\我的闲余工作编程\\music\\music-website\\music-server\\data\\
+
