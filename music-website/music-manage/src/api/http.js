@@ -12,11 +12,11 @@ if (process.env.NODE_ENV === 'production') {
     axios.defaults.baseURL = 'http://localhost:8888';
   } else {
     //test 测试环境
-    axios.defaults.baseURL = 'http://81.70.170.21:8888/api';
+    axios.defaults.baseURL = '/api';
   }
 } else {
   //dev 开发环境
-  axios.defaults.baseURL = 'http://localhost:8888';
+  axios.defaults.baseURL = '/api/';
 }
 
 // 响应拦截器
