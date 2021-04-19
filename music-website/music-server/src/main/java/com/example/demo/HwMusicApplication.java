@@ -9,7 +9,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class HwMusicApplication {
 
     public static void main(String[] args) {
-        System.out.println("成功");
+        System.out.println("成功2");
         SpringApplication.run(HwMusicApplication.class, args);
     }
 
